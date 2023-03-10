@@ -20,19 +20,19 @@ enum {
 };
 
 int minimums[] = {
-  0,
-  0,
-  -20,
-  0,
-  870
+  0,    // PM 2.5
+  0,    // PM 10
+  -20,  // Temperature
+  0,    // Humidity
+  870   // Pressure
 };
 
 int maximums[] = {
-  200,
-  500,
-  50,
-  100,
-  1084
+  200,  // PM 2.5
+  500,  // PM 10
+  50,   // Temperature
+  100,  // Humidity
+  1084  // Pressure
 };
 
 #define MAX_CHANNEL 13
